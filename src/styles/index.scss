@@ -1,0 +1,51 @@
+@import '../styles/reset';
+@import '../styles/fonts';
+
+.app {
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.app__card {
+    width: 70%;
+    padding: 56px;
+    border-radius: 24px 24px 200px 24px;
+    background-color: #FFF;
+    height: auto;
+}
+
+.app__input-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 32px;
+    width: 60%;
+}
+
+.app__text-content {
+    color: #151515;
+    font-size: 104px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 110%;
+    letter-spacing: -2.08px;
+
+    & span {
+        color: #854DFF;
+    }
+}
+
+.app__button {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.app__button-line {
+    background-color: #DCDCDC;
+    height: 1px;
+    width: 100%;
+}
